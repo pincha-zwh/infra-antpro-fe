@@ -16,7 +16,14 @@ export async function getInitialState() {
 export const layout: RunTimeLayoutConfig = () => {
   return {
     ...defaultSettings,
-    title: 'infra-server-service',
+    title: 'Infra Server',
+    // 去掉语言选择
+    actionsRender: () => [],
+    // 只显示头像和昵称，去掉下拉菜单
+    avatarProps: {
+      src: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
+      title: 'Asher.Z',
+    },
   };
 };
 
