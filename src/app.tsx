@@ -16,6 +16,7 @@ export async function getInitialState() {
 export const layout: RunTimeLayoutConfig = () => {
   return {
     ...defaultSettings,
+    title: 'infra-server-service',
   };
 };
 

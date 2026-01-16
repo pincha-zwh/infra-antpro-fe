@@ -8,7 +8,7 @@ const Welcome: React.FC = () => {
       <Card>
         <div style={{ padding: '10px 0' }}>
           <h2>欢迎使用基础项目</h2>
-          <p>这是一个基于 Ant Design Pro 简化后的基础项目模板</p>
+          <p>这是一个基于 infra-server-service 简化后的基础项目模板</p>
         </div>
       </Card>
     </PageContainer>
