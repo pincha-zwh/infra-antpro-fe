@@ -17,6 +17,10 @@ export const layout: RunTimeLayoutConfig = () => {
   return {
     ...defaultSettings,
     title: 'Infra Server',
+    // 设置全局组件尺寸为small
+    size: 'small',
+    // 关闭面包屑
+    breadcrumbRender: false,
     // 去掉语言选择
     actionsRender: () => [],
     // 只显示头像和昵称，去掉下拉菜单

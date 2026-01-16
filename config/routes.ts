@@ -17,6 +17,18 @@ export default [
     component: './Welcome',
   },
   {
+    path: '/user',
+    name: 'user',
+    icon: 'user',
+    routes: [
+      {
+        path: '/user/list',
+        name: 'userList',
+        component: './user/list',
+      },
+    ],
+  },
+  {
     path: '*',
     layout: false,
     component: './404',
