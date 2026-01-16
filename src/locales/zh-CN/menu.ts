@@ -1,5 +1,7 @@
 export default {
   'menu.welcome': '欢迎',
+  'menu.user': '用户管理',
+  'menu.user.userList': '用户列表',
   'menu.more-blocks': '更多区块',
   'menu.home': '首页',
   'menu.admin': '管理页',

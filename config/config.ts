@@ -83,7 +83,7 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: 'infra-server-service',
+  title: 'Infra Server',
   layout: {
     locale: true,
     ...defaultSettings,
@@ -114,7 +114,10 @@ export default defineConfig({
    * @doc https://umijs.org/docs/max/antd#antd
    */
   antd: {
-    appConfig: {},
+    appConfig: {
+      // 设置 Ant Design 组件的默认尺寸为 small
+      size: 'small',
+    },
     configProvider: {
       theme: {
         cssVar: true,
